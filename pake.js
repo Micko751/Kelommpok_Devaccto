@@ -6,3 +6,8 @@ function showSmoke() {
         smokeDiv.classList.add("hidden");
     }, 3000);
 }
+
+const menuBtn = document.getElementById("menuBtn");
+  menuBtn.addEventListener("click", () => {
+    menuBtn.classList.toggle("active");
+  });
